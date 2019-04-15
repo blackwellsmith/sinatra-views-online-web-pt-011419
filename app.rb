@@ -8,4 +8,7 @@ class App < Sinatra::Base
 	get "/info" do
     erb :info
   end
+  get "/love" do
+    erb :love 
+  end
 end
